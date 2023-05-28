@@ -179,8 +179,12 @@ body {
 .button-like i{
     font-size: 30px;
 }
-.post .button-like .like-button p{
+.post .button-like .like-button{
     display: flex;
+    align-items: center;
+}
+.post .button-like .like-button p{
+    margin-left: 5px;
     text-align: justify;
 }
 .button-like {
@@ -195,6 +199,19 @@ body {
     padding-top: 5px;
     background-color: #7DA6E8;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+.home-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+
+}
+.home-icon i{
+    font-size: 30px;
+    color: #ffffff;
+    
 }
 
