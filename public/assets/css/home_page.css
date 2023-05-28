@@ -5,12 +5,12 @@
     font-family: "Poppins", sans-serif;
 }
 body {
-    background: rgb(86, 131, 162);
+    background: rgb(197, 233, 243);
 }
 .wrapper {
     width: 428px;
+    height: 926px;
     position: relative;
-    /* padding: 2rem 1rem; */
     margin: auto;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -24,7 +24,6 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
 .header .header_icon {
     display: flex;
 }
@@ -108,6 +107,7 @@ body {
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid red;
+    margin-left: 7px;
 }
 .story .user_story p{
     font-size: 10px;
@@ -126,7 +126,6 @@ body {
 }
 .post .post1 {
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
     margin-top: 5px;
 }
@@ -145,7 +144,6 @@ body {
     border-radius: 50%;
     margin-left: 15px;
     margin-right: 15px;
-    /* margin-top: 10px; */
 }
 .post .post1 .profile-post .post-name .name p{
     font-size: 14px;
@@ -155,7 +153,6 @@ body {
     height: 60px;
     display: flex;
     align-items: center;
-
 }
 .post .post1 .profile-post .name_icon{
     display: flex;
@@ -169,8 +166,7 @@ body {
 }
 .post .post1 .exit-button i{
     margin-right:15px ;
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
 .picture p{
     margin-left: 15px;
@@ -207,11 +203,13 @@ body {
     justify-content: center;
     align-items: center;
     width: 20%;
-
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .home-icon i{
     font-size: 30px;
-    color: #ffffff;
-    
+    color: #ffffff;  
 }
-
+.home-icon p{
+    color: #ffffff;
+}
