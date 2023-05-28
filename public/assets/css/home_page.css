@@ -173,7 +173,7 @@ body {
     margin-bottom: 5px;
 }
 .button-like i{
-    font-size: 30px;
+    font-size: 20px;
 }
 .post .button-like .like-button{
     display: flex;
@@ -207,7 +207,7 @@ body {
     margin-bottom: 15px;
 }
 .home-icon i{
-    font-size: 30px;
+    font-size: 20px;
     color: #ffffff;  
 }
 .home-icon p{
