@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: rgb(197, 233, 243);
+}
+.wrapper {
+    width: 428px;
+    height: 926px;
+    position: relative;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.header{
+    border-radius: 10px;
+    border: 1px solid #7DA6E8;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 428px;
+    height: 82px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cen p1{
+    color: #7DA6E8;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    margin-left: 25px;
+    
+}
+.header .header_icon {
+    display: flex;
+    padding-right: 15px;
+}
+.icon {
+    background: lightblue;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+.icon i {
+    font-size: 24px;
+}
+.new p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.user1 {
+    display: flex;
+}
+.user1 img{
+    width: 120px;
+    height: 60px;
+    border-radius: 50%;
+    stroke: #FFF5F5;
+    margin-top: 15px;
+    object-fit: cover;
+    margin-left: 15PX;
+
+}
+.name_fri{
+    margin-top: 10px;
+    display: flex;
+}
+
+.username p{
+
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+.username p1{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.user_icon{
+    font-size: 24px;
+    margin-right: 15PX;
+    margin-top: 5px;
+}
+.today p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.user_td {
+    display: flex;
+}
+.user_td img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    stroke: #FFF5F5;
+    margin-top: 15px;
+    object-fit: cover;
+    margin-left: 15PX;
+
+}
+.name_fri1{
+    margin-top: 10px;
+    display: flex;
+}
+
+.username_td p{
+
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+.username_td p1{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.user_icontd{
+    font-size: 24px;
+    margin-right: 15PX;
+    margin-top: 5px;
+}
+.before p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.user_bf {
+    display: flex;
+}
+.user_bf img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    stroke: #FFF5F5;
+    margin-top: 15px;
+    object-fit: cover;
+    margin-left: 15PX;
+
+}
+.name_fri2{
+    margin-top: 10px;
+    display: flex;
+}
+
+.username_bf p{
+
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+.username_bf p1{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.user_iconbf{
+    font-size: 24px;
+    margin-right: 15PX;
+    margin-top: 5px;
+}
+.home-button{
+    height: 58px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: #7DA6E8;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+.home-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.home-icon i{
+    font-size: 20px;
+    color: #ffffff;  
+}
+.home-icon p{
+    color: #ffffff;
+}

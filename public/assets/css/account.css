@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: rgb(197, 233, 243);
+}
+.wrapper {
+    width: 428px;
+    height: 926px;
+    position: relative;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.header{
+    background: #FFF;
+    width: 428px;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+.cen p1{
+    color: #7DA6E8;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.header .header_icon {
+    display: flex;
+    padding-right: 15px;
+}
+
+.icon {
+    font-size: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+.cover img{
+    margin-top: 2px;
+    width: 428px;
+    height: 229px;
+}
+.pf_user{
+     display: flex;
+}
+.pf_user img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 275px;
+    margin-left: 50px;
+}
+.name p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+.name p1{
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.name{
+    margin-left: 170px;
+}
+.con1{
+    margin-top: 30px;
+    display: flex;
+}
+.box1{
+    width: 236px;
+    height: 51px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background: #B0BFC3;
+    margin-left: 40px;
+}
+.box2{
+    width: 94px;
+    height: 51px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background: #B0BFC3;
+    margin-left: 20px;
+}
+.box1 p{
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: -35px;
+    margin-left: 115px;
+}
+.box1 i{
+    font-size: 30px;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+.box2 i{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+.con2{
+    display: flex;
+    margin-top: 10px;
+}
+.box3{
+    margin-left: 25px;
+    width: 125px;
+    height: 62px;
+    border-radius: 27px;
+    background: #B0BFC3;
+}
+.box3 p{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.box4{
+    width: 118px;
+    height: 62px;
+    border-radius: 27px;
+    background: #B0BFC3;
+    margin-left: 10px;
+}
+.box4 p{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.box5{
+    margin-left: 10px;
+    width: 112px;
+    height: 62px;
+    border-radius: 27px;
+    background: #B0BFC3;
+}
+.box5 p{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.create_post{
+    position: relative;
+    height: 74px;
+    background-color: #7DA6E8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.create_post .profile {
+    width: 428px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.create_post .profile .profile-img img{
+    min-width: 46px;
+    height: 46px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.create_post .profile .profile-input input{
+    width: 277px;
+    height: 54px;
+    text-align: center;
+    border-radius: 37px;
+    font-size: 20px;
+    font-weight:bold;
+}
+.icon1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.icon1 i{
+    font-size: 30px;
+}
+.info1{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.info1 {
+    font-size: 32px;
+}
+.info1 p{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.info1 p1{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 22px;
+}
+.bottom p{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.bottom img{
+    width: 91px;
+    height: 122px;
+    border: 1px solid #000;
+    margin-left: 15px;
+    margin-top: 5px;
+}

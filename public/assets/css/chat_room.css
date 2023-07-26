@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: rgb(197, 233, 243);
+}
+.wrapper {
+    width: 428px;
+    height: 926px;
+    position: relative;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.top{
+    display: flex;
+    width: 426px;
+    height: 101px;
+    padding-top: 12px;
+    padding-left: 25px;
+    border-bottom: 3px solid #000;
+    background: #FFF;
+}
+.pf1{
+     display: flex;
+}
+.name{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.name p{
+    color: #000;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.name p1{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.pf1 img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+.top .icon{
+    font-size: 35px;
+    margin-top: 20px;
+    display: flex;
+}
+.top .icon1{
+    display: flex;
+    margin-left:10px ;
+}
+.top .icon1 i{
+    font-size: 35px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 5px;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+.top .icon1 i1{
+    font-size: 35px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 50px;
+}
+.circle{
+    width: 6px;
+    height: 6px;
+    border-radius: 5px;
+    background: #5EEA3B;
+    margin-left: -10px;
+    margin-top: 32px;
+}
+.center p{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 15px;
+}
+.box1{
+    border-radius: 23px;
+    background: #7DA6E8;
+    width: 271px;
+    height: 69px;
+    margin-left: 135px;
+
+}
+.box1 p{
+    text-align: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 15px;
+}
+.box2{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.box2 img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.text1 {
+    width: 113px;
+    height: 52px;
+    border-radius: 23px;
+    background: #7DA6E8;
+    margin-left: 15px;
+}
+.text1 p{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.box3{
+    border-radius: 23px;
+    background: #7DA6E8;
+    width: 234px;
+    height: 52px;
+    margin-left: 170px;
+
+}
+.box3 p{
+    text-align: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 15px;
+}
+.box4{
+    width: 211px;
+    height: 77px;
+    border-radius: 23px;
+    background: #7DA6E8;
+    display: flex;
+    margin-left: 190px;
+    margin-top: 15px;
+}
+.icon4{
+    display: flex;
+    margin-left: 45px;
+
+}
+.icon4 i{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.text3 p{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+.text3 p1{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text3{
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.box5{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.box5 img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 125px;
+}
+.image img{
+    width: 201px;
+    height: 202px;
+    margin-left: 20px;
+}
+.con{
+     display: flex;
+}
+.box9{
+    width: 130px;
+    height: 39px;
+    border-radius: 23px;
+    background: #7DA6E8;
+    margin-left: 275px;
+}
+.box9 p{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 9px;
+}
+.bottom img{
+    margin-top: 42px;
+    width: 430px;
+    margin-right: -6px;
+}

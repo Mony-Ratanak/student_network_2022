@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: rgb(197, 233, 243);
+}
+.wrapper {
+    width: 428px;
+    height: 926px;
+    position: relative;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.top{
+    display: flex;
+    width: 428px;
+    height: 73px;
+    padding-top: 12px;
+    padding-left: 25px;
+    border-bottom: 3px solid #000;
+    background: #FFF;
+}
+.top p{
+    width: 184px;
+    height: 48px;
+    color: #7DA6E8;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 75px;
+}
+.top .icon{
+    font-size: 32px;
+    margin-top: 3px;
+}
+.center{
+    width: 428px;
+    height: 81px;
+    border-radius: 27px;
+    border: 1px solid #000;
+    background: #FFF;
+    margin-top: 12px;
+
+}
+.contain{
+    display: flex;
+    margin-top: 25px;
+
+}
+.icon1 {
+    font-size: 36px;
+    margin-left: 20px;
+    margin-top: -6px;
+    display: flex;
+    
+}
+.icon1 p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 60px;
+    margin-right: 66px;
+    margin-top: 5px;
+}
+.icon2 {
+    font-size: 35px;
+    margin-left: 22px;
+    margin-top: -6px;
+    display: flex;
+    margin-right: 20px;
+    
+}
+.icon2 p{
+    color: #000;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 58px;
+    margin-right: 58px;
+    margin-top: 5px;
+}
+.icon3 {
+    font-size: 34px;
+    margin-left: 22px;
+    margin-top: -6px;
+    display: flex;
+    margin-right: 20px;
+    
+}
+.icon3 p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 95px;
+    margin-right: 90px;
+    margin-top: 5px;
+}
+.icon4 {
+    font-size: 34px;
+    margin-left: 22px;
+    margin-top: -6px;
+    display: flex;
+    margin-right: 20px;
+    
+}
+.icon4 p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 105px;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+.icon5 {
+    font-size: 34px;
+    margin-left: 22px;
+    margin-top: -6px;
+    display: flex;
+    margin-right: 20px;
+    
+}
+.icon5 p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 5px;
+}
+.icon6 {
+    font-size: 34px;
+    margin-left: 22px;
+    margin-top: -6px;
+    display: flex;
+    margin-right: 20px;
+    
+}
+.icon6 p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 5px;
+}
+.icon7 {
+    font-size: 35px;
+    margin-left: 22px;
+    margin-top: -6px;
+    display: flex;
+    margin-right: 20px;
+    
+}
+.icon7 p{
+    color: #000;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 110px;
+    margin-right: 120px;
+    margin-top: 5px;
+}
+.icon8 {
+    font-size: 34px;
+    margin-left: 22px;
+    margin-top: -6px;
+    display: flex;
+    margin-right: 20px;
+    
+}
+.icon8 p{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 105px;
+    margin-right: 105px;
+    margin-top: 5px;
+}
+.box1{
+    width: 106px;
+    height: 37px;
+    border-radius: 14px;
+    border: 1px solid #000;
+    background: #7DA6E8;
+    margin-top: 12px;
+    margin-left: 160px;
+}
+.bottom .box1 p{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+.bottom p{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    margin-top: 12px;
+}

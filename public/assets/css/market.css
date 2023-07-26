@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: rgb(197, 233, 243);
+}
+.wrapper {
+    width: 428px;
+    height: 926px;
+    position: relative;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.top{
+    display: flex;
+    width: 428px;
+    height: 73px;
+    padding-top: 12px;
+    padding-left: 25px;
+    border-bottom: 3px solid #000;
+    background: #FFF;
+}
+.top p{
+    width: 184px;
+    height: 48px;
+    color: #7DA6E8;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 75px;
+}
+.top .icon{
+    font-size: 32px;
+    margin-top: 3px;
+}
+.contain{
+    margin-top: 30px;
+}
+.contain1{
+    display: flex;
+    margin-top: 10px;
+
+}
+.box1 img{
+    width: 180px;
+    height: 188px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin-left: 25px;
+}
+.box2 img{
+    width: 180px;
+    height: 188px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin-left: 20px;
+    margin-right: 25px;
+}
+.agree{
+    border-radius: 12px;
+    border: 4px solid #E9E0E0;
+    background: #7DA6E8;
+    position: absolute;
+    right: 120px;
+    width: 200px;
+    height: 70px;
+    bottom: 100px;
+}
+.agree p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 12px;
+}

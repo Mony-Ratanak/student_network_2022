@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: rgb(197, 233, 243);
+}
+.wrapper {
+    width: 428px;
+    height: 926px;
+    position: relative;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.header{
+    border: 1px solid #000;
+    background: #FFF;
+    width: 428px;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cen p1{
+    color: #7DA6E8;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 25px;
+    
+}
+.header .header_icon {
+    display: flex;
+    padding-right: 15px;
+}
+.icon {
+    background: lightblue;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+.icon i {
+    font-size: 24px;
+}
+.find_friend{
+    width: 428px;
+    height: 74px;
+    border-top: 1px solid #000;
+    background: #FFF;
+    margin-top: 8px;
+    display: flex;
+}
+.space_l{
+    width: 11px;
+    height: 1px;
+    background-color: #000;
+    margin-top: 65px;
+}
+.find_fr{
+    width: 203px;
+    height: 56px;
+    border-radius: 15px 15px 0px 0px;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    background: #FFF;
+    margin-top: 10px;
+}
+.find_fr p2{
+    color: #000;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.box1 p{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.box2 p{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.box1{
+    width: 176px;
+    height: 62px;
+    border-radius: 27px;
+    border: 1px solid #000;
+    background: #FFF;
+    padding-top: 12px;
+
+   
+}
+.box2{
+    width: 176px;
+    height: 62px;
+    border-radius: 27px;
+    border: 1px solid #000;
+    background: #FFF;
+    padding-top: 12px;
+
+}
+.your_fri{
+    display: flex;
+}
+.you_fri p2{
+    color: #B0BFC3;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+.space_r{
+    width: 214px;
+    height: 1px;
+    background-color: #000;
+}
+.you_fri{
+    width: 194px;
+    height: 45px;
+    border-radius: 15px 15px 0px 0px;
+    border-top: 1px solid #B0BFC3;
+    border-right: 1px solid #B0BFC3;
+    border-left: 1px solid #B0BFC3;
+    background: #FFF;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.center{
+    margin-top: 25px;
+}
+.contain{
+    display: flex;
+    padding-bottom: 7px;
+}
+.contain p{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    margin-left: 25px;
+}
+.icon5{
+    font-size: 30px;
+    margin-left: 225px;
+}
+.icon6{
+    font-size: 30px;
+    margin-left: 15px;
+}
+.pf1{
+    display: flex;
+    margin-top: 5px;
+}
+.name_fri{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.pf_fri{
+    margin-bottom: 5px;
+}
+.pf_fri img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 22px;
+}
+.username p{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.box_b{
+    width: 148px;
+    height: 46px;
+    border-radius: 16px;
+    border: 1px solid #000;
+    background: #D9D9D9;
+    text-align: center;
+    padding-top: 14px;
+    margin-left: 100px;
+    margin-top: 7px;
+}
+.icon1{
+    display: flex;
+    font-size: 20px;
+    margin-right: 8px;
+}
+.icon2{
+    font-size: 12px;
+    
+}
+.home-button{
+    height: 58px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: #7DA6E8;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 26px;
+}
+.home-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.home-icon i{
+    font-size: 20px;
+    color: #ffffff;  
+}
+.home-icon p{
+    color: #ffffff;
+}
